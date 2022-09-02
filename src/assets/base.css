@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --primary-color: #a0e8e7;
+  --primary-color1: #2dd1d1;
+  --text-grey: #96939c;
+  --text-black: #34313c;
+  --red-color: #dc6c78;
+  --main-bg: #f0f1f6;
+  --bg-color1: #3f2d58;
+  --bg-color2: #393053;
+  --bg-color3: #232027;
+  --box-shadow-color: #a2a2a21a;
+}
