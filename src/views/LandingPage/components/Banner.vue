@@ -74,19 +74,28 @@ export default {
 }
 
 @media (min-width: 0px) {
-  .content{
+  .content {
     margin-top: 400px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 2000px;
   }
- 
 }
 @media (min-width: 655px) {
+  .content {
+    max-width: 600px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+    align-items: flex-start;
+    text-align: start;
 
+  }
 }
 @media (min-width: 1300px) {
-  
 }
 </style>

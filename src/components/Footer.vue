@@ -134,5 +134,8 @@ export default { components: { Container } };
   .footer-grid {
     grid-template-columns: repeat(6, 1fr);
   }
+  .logo {
+    grid-column: 2 span;
+  }
 }
 </style>
